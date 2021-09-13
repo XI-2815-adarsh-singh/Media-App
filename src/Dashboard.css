@@ -1,0 +1,78 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+   
+  li {
+    float: left;
+  }
+   
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+   
+  li a:hover {
+    background-color: #808181;
+    color: white;
+    text-decoration: none;
+  }
+   
+  .push-right {
+    float: right;
+    line-height: 50px;
+  }
+
+  .tiles {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+  .tile {
+    margin: 15px;
+    cursor: pointer;
+    overflow: hidden;
+    width: 18vw;
+    height: 18vw;
+  }
+  
+  .photo {
+    width: 100%;
+    transition: transform 500ms ease;
+  }
+  
+  .photo:hover {
+    transform: scale(1.1);
+  }
+
+  .profileThumb{
+    min-width: 50px;
+  }
+  
+  .iconStyling{
+    font-size: 1.25rem;
+    cursor: pointer;
+  }
+  
+  .desktopWidth{
+    max-width: 1024px;
+    margin: auto;
+  }
+  
+  .replyDisplay{
+    background-color: rgb(250,250,250);
+  }
+  
+  .fixedMenuFix{
+    margin-top: 4em
+  }
+  
